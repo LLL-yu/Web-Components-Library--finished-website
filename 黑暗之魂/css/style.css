@@ -1,0 +1,84 @@
+body {
+    font-family: 'SimSun', '宋体', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url('../img/background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #f4f4f4;
+}
+
+header {
+    background-color: rgba(26, 26, 26, 0.8);
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #d4af37;
+}
+
+main {
+    padding: 20px;
+    width: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #d4af37;
+}
+
+#introduction {
+    margin-bottom: 40px;
+}
+
+#games {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.game {
+    background-color: rgba(51, 51, 51, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+.game h2 {
+    margin-top: 0;
+}
+
+.game img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.game img:hover {
+    transform: scale(1.1);
+}
